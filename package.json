@@ -1,0 +1,28 @@
+{
+  "name": "engines-checker",
+  "version": "0.0.1",
+  "description": "outdated versions checker for Node.js engines",
+  "bin": "./bin/engines-checker",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyoNkmr/engines-checker.git"
+  },
+  "author": "Ryonkmr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RyoNkmr/engines-checker/issues"
+  },
+  "keywords": [
+    "engines",
+    "version"
+  ],
+  "homepage": "https://github.com/RyoNkmr/engines-checker#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "semver": "^5.5.1"
+  }
+}
