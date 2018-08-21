@@ -5,7 +5,9 @@
   "bin": "./bin/engines-checker",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish:major": "git checkout master && git pull && npm version major && npm run build && git add . && git commit -m 'publish major update' && git push && git push --tags && npm publish",
+    "publish:minor": "git checkout master && git pull && npm version minor && npm run build && git add . && git commit -m 'publish minor update' && git push && git push --tags && npm publish",
+    "publish:patch": "git checkout master && git pull && npm version patch && npm run build && git add . && git commit -m 'publish patch update' && git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",

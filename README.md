@@ -6,7 +6,7 @@
 
 ## Example
 
-### package.json
+[package.json]
 ```json
 {
   "name": "some-projects",
@@ -16,7 +16,13 @@
     "npm": ">=5.6.0"
   },
   "scripts": {
-    "start": "..."
+    "build": "...",
+    "start": "...",
+    "prebuild": "engines-checker",
+    "prestart": "engines-checker"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3"
   }
 }
 ```
