@@ -1,8 +1,15 @@
 # Engines Checker
+https://www.npmjs.com/package/engines-checker
 
 ## Requirements
 
 - Node.js >= 8.0
+
+## Installation
+
+```bash
+$ npm i -D engines-checker
+```
 
 ## Example
 
