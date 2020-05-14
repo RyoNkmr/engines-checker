@@ -1,9 +1,10 @@
 # Engines Checker
+
 https://www.npmjs.com/package/engines-checker
 
 ## Requirements
 
-- Node.js >= 8.0
+- Node.js >= 10.0
 
 ## Installation
 
@@ -14,12 +15,13 @@ $ npm i -D engines-checker
 ## Example
 
 [package.json]
+
 ```json
 {
   "name": "some-projects",
   "version": "0.0.1",
   "engines": {
-    "node": ">=9.9.0",
+    "node": ">=10",
     "npm": ">=5.6.0"
   },
   "scripts": {
