@@ -1,7 +1,10 @@
 {
   "name": "engines-checker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "outdated versions checker for Node.js engines",
+  "engines": {
+    "node": ">=10"
+  },
   "bin": "./bin/engines-checker",
   "main": "./lib/index.js",
   "scripts": {
@@ -24,7 +27,7 @@
   ],
   "homepage": "https://github.com/RyoNkmr/engines-checker#readme",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "semver": "^5.5.1"
+    "chalk": "^4.0.0",
+    "semver": "^7.3.2"
   }
 }
