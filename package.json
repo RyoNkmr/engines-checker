@@ -1,6 +1,6 @@
 {
   "name": "engines-checker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "outdated versions checker for Node.js engines",
   "engines": {
     "node": ">=10"
